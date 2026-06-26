@@ -2,7 +2,7 @@ import os
 import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
-from mega import Mega
+from meganzi import Mega
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 MEGA_EMAIL = os.getenv("MEGA_EMAIL") 
