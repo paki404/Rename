@@ -14,7 +14,6 @@ START_TEXT = """
 
 **Features:** Prefix, Suffix, MEGA Login
 **Commands:** /start /help /settings /rename /accounts
-
 """
 
 def save_session(uid, session):
